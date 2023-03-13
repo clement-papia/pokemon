@@ -1,0 +1,23 @@
+classe pokemon(attribuent privés nom et point de vie)
+classe type héritent de la classe pokemon(normal,feu,eau,terre chaque type a ces caractéristiques)
+classe pokedex(enregistre info et permet de les affichers faire en sorte de ne pas avoir de doublon)
+classe combat(gestion complète du jeux Une méthode qui vérifie si l’un des deux Pokémon n’est plus en vie.
+Une méthode qui renvoie le nom du vainqueur.
+Une méthode qui choisit aléatoirement 1 ou 0. Si 1 est retourné, alors le
+Pokémon peut attaquer et infliger des dégâts à son adversaire, sinon il loupe son
+attaque.
+Une méthode qui récupère le type de l'adversaire et récupère sa puissance
+d’attaque et le multiplie en suivant le tableau suivant(voir pdf)
+faire méthode qui enleve point de vie/nom du perdant/enregistre le pokemon rencontré dans le pokedex
+faire un menu en début de partie proposant:
+lancer jeux
+ajouter un pokemon(dans le fichier texte pokemon.json)
+accéder à son pokedex
+lors du démarrage renseigner le pokemon avec lequel il veut jouer selon liste. L'adversaire est choisi de manière aléatoire.
+chaque classe fichier différent
+
+Pour aller plus loin:
+ajouter plus de pokemon + évolution avec manière(ce que je veux) + interface graphique
+
+Pour aller beaucoup plus loin:
+au lancement peut continuer partie a partir de sauvegarde. Si il relance une partie pokedex a zero
